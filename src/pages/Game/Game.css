@@ -1,0 +1,71 @@
+.game-main-container {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trivia-container {
+  align-items: center;
+  background-color: #0e1a29;
+  border-radius: 20px;
+  display: flex;
+  font-size: 1.5rem;
+  flex-basis: 30rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.trivia-container button {
+  border-radius: 7px;
+  /* background-color: rgb(52, 145, 207); */
+  color: white;
+  font-weight: 900;
+  margin-bottom: 0.3rem;
+  padding: 10px;
+  width: 80%;
+}
+/* 
+.trivia-container button:disabled {
+  background-color:  rgb(52, 145, 207, 0.2);
+} */
+
+.option-answer {
+  background-color: rgb(52, 145, 207);
+}
+
+.correct-answer {
+  background-color: #46ae27;
+  border: 3px solid #46ae27;
+}
+
+.wrong-answer {
+  background-color: #c91818;
+  border: 3px solid #c91818;
+}
+
+.next-question-buttton {
+  align-self: center;
+  background-color: #46ae27;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 900;
+  padding: 10px 20px;
+  margin-top: 0.3rem;
+}
