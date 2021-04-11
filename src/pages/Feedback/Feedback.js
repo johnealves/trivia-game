@@ -67,7 +67,7 @@ class Feedback extends React.Component {
           className="btn-ranking btn-default"
           onClick={ this.handleClick }
         >
-          Ver Ranking
+          See Ranking
         </Link>
         <button
           type="button"
@@ -75,7 +75,7 @@ class Feedback extends React.Component {
           onClick={ this.handleClick }
           className="btn-play-again btn-default"
         >
-          Jogar Novamente
+          Play again
         </button>
       </nav>
     );
@@ -94,21 +94,21 @@ class Feedback extends React.Component {
           <section className="feedback-container">
             { this.feedbackImg(assertions) }
             <p data-testid="feedback-text" className="feedback-text">
-              { assertions > 2 ? 'Mandou bem!' : 'Podia ser melhor...' }
+              { assertions > 2 ? 'Nice job!' : 'Could be better...' }
             </p>
             <p className="text-default">
-              Você acertou&nbsp;
+              You got&nbsp;
               <span data-testid="feedback-total-question">
                 { assertions }
               </span>
-              &nbsp;questões!
+              &nbsp;questions right!
             </p>
             <p className="text-default">
-              Um total de&nbsp;
+              A total of&nbsp;
               <span data-testid="feedback-total-score">
                 { score }
               </span>
-              &nbsp;pontos!
+              &nbsp;points!
             </p>
             { this.renderBtnContainer() }
           </section>

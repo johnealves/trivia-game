@@ -107,7 +107,7 @@ class Login extends React.Component {
             <input
               type="text"
               name="name"
-              placeholder="Nome"
+              placeholder="Name"
               data-testid="input-player-name"
               onChange={ this.handleChange }
             />
@@ -125,7 +125,7 @@ class Login extends React.Component {
                 disabled={ isDisable }
                 onClick={ this.handleClick }
               >
-                Jogar
+                Play
               </button>
             </Link>
           </div>

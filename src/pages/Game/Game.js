@@ -90,7 +90,7 @@ class Game extends React.Component {
       <section className="game-container">
         <Header />
         <main className="game-main-container">
-          <p>{ `Tempo: ${time}` }</p>
+          <p>{ `Time: ${time}` }</p>
           <div className="answers">
             <div className="game-container">
               { (questions) && questions.map((question) => (
@@ -105,7 +105,7 @@ class Game extends React.Component {
                   data-testid="btn-next"
                   onClick={ () => this.handleNextQuestion() }
                 >
-                  Próxima
+                  Next
                 </button>
               )}
             </div>

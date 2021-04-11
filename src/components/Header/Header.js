@@ -24,7 +24,7 @@ class Header extends Component {
           </p>
           <Link exact to="/trivia-game">
             <button type="button" data-testid="btn-go-home" className="btn-go-home">
-              Sair
+              Logout
             </button>
           </Link>
         </div>
