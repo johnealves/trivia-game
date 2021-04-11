@@ -1,0 +1,68 @@
+.ranking-container {
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  width: 100vw;
+}
+
+.ranking-container header {
+  align-items: center;
+  background-color: #000812;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.ranking-container header button {
+  background: transparent;
+  border: 1px solid #2f80ed;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 5px 15px;
+}
+
+.ranking-container header button:hover {
+  background-color: #14253c;
+  transition: 0.3s;
+}
+
+.ranking-container ol {
+  align-items: flex-start;
+  background-color: #0e1a29;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.player-list {
+  align-items: center;
+  border: 1px solid #2f80ed;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.player-list div {
+  align-items: center;
+  display: flex;
+}
+
+.player-list div img {
+  border-radius: 50%;
+}
+
+.player-score {
+  align-self: auto;
+}

@@ -1,0 +1,43 @@
+.header {
+  background-color: #000812;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header img {
+  border-radius: 50%;
+  height: 2em;
+}
+
+.score-container {
+  align-items: center;
+  display: flex;
+}
+
+.data-player-conatiner {
+  align-items: center;
+  display: flex;
+}
+
+.btn-go-home {
+  background: transparent;
+  border: 1px solid #2f80ed;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 5px 15px;
+}
+
+.btn-go-home:hover {
+  background-color: #14253c;
+  transition: 0.3s;
+}
+
