@@ -81,11 +81,11 @@ class Game extends React.Component {
     const { validLogin } = player;
     const { counter, redirectFeedback } = this.state;
     this.setInLocalStorage(player);
-    if (!validLogin) return <Redirect exact to="/" />;
+    if (!validLogin) return <Redirect exact to="/trivia-game" />;
     if (isFetching || !questions) {
       return <Loading />;
     }
-    if (redirectFeedback) return <Redirect exact to="/feedback" />;
+    if (redirectFeedback) return <Redirect exact to="/trivia-game/feedback" />;
     return (
       <section className="game-container">
         <Header />

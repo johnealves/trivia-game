@@ -29,13 +29,13 @@ class Ranking extends React.Component {
     const { ranking } = this.state;
     const { player } = this.props;
     const { validLogin } = player;
-    if (!validLogin) return <Redirect to="/" />;
+    if (!validLogin) return <Redirect to="/trivia-game/" />;
     return (
       <section>
         <div className="ranking-container">
           <header>
             <h1 data-testid="ranking-title">Ranking</h1>
-            <Link exact to="/">
+            <Link exact to="/trivia-game">
               <button type="button" data-testid="btn-go-home">
                 Home
               </button>

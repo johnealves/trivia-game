@@ -62,7 +62,7 @@ class Feedback extends React.Component {
     return (
       <nav className="btn-container">
         <Link
-          to="/ranking"
+          to="/trivia-game/ranking"
           data-testid="btn-ranking"
           className="btn-ranking btn-default"
           onClick={ this.handleClick }
@@ -85,8 +85,8 @@ class Feedback extends React.Component {
     const { player } = this.props;
     const { assertions, score, validLogin } = player;
     const { isNewGame } = this.state;
-    if (!validLogin) return <Redirect exact to="/" />;
-    if (isNewGame) return <Redirect to="/" />;
+    if (!validLogin) return <Redirect exact to="/trivia-game" />;
+    if (isNewGame) return <Redirect to="/trivia-game" />;
     return (
       <div>
         <Header />

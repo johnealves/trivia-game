@@ -99,7 +99,7 @@ class Login extends React.Component {
     return (
       <div className="body-login">
         <div className="wrapper">
-          <Link className="link" to="/settings" data-testid="btn-settings">
+          <Link className="link" to="/trivia-game/settings" data-testid="btn-settings">
             <AiFillSetting />
           </Link>
           <img src={ Logo } alt="logo trivia game" />
@@ -118,7 +118,7 @@ class Login extends React.Component {
               data-testid="input-gravatar-email"
               onChange={ this.handleChange }
             />
-            <Link to="/game">
+            <Link to="/trivia-game/game">
               <button
                 type="button"
                 data-testid="btn-play"

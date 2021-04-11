@@ -22,7 +22,7 @@ class Header extends Component {
             Score:&nbsp;
             <span data-testid="header-score">{ player.score }</span>
           </p>
-          <Link exact to="/">
+          <Link exact to="/trivia-game">
             <button type="button" data-testid="btn-go-home" className="btn-go-home">
               Sair
             </button>

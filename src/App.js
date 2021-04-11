@@ -10,11 +10,11 @@ import './App.css';
 export default function App() {
   return (
     <Switch>
-      <Route exact path="/" component={ Login } />
-      <Route path="/settings" component={ Settings } />
-      <Route path="/game" component={ Game } />
-      <Route path="/feedback" component={ Feedback } />
-      <Route path="/ranking" component={ Ranking } />
+      <Route exact path="/trivia-game" component={ Login } />
+      <Route path="/trivia-game/settings" component={ Settings } />
+      <Route path="/trivia-game/game" component={ Game } />
+      <Route path="/trivia-game/feedback" component={ Feedback } />
+      <Route path="/trivia-game/ranking" component={ Ranking } />
     </Switch>
   );
 }
