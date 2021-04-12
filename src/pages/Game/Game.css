@@ -39,6 +39,7 @@
   padding: 10px;
   width: 80%;
 }
+
 /* 
 .trivia-container button:disabled {
   background-color:  rgb(52, 145, 207, 0.2);
@@ -46,6 +47,10 @@
 
 .option-answer {
   background-color: rgb(52, 145, 207);
+}
+
+.option-answer:hover {
+  background-color: rgb(38, 116, 168);
 }
 
 .correct-answer {
