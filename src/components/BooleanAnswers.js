@@ -87,7 +87,7 @@ class BooleanAnswers extends React.Component {
               onClick={ this.handleClcik }
               disabled={ disableButton }
             >
-              { option }
+              { option.replace(/&quot;/g, '"').replace(/&#039;/g, '`') }
             </button>);
         })}
       </div>

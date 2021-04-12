@@ -107,7 +107,7 @@ class MultipleAnswers extends React.Component {
               disabled={ disableButton }
               onClick={ this.handleClcik }
             >
-              { option }
+              { option.replace(/&quot;/g, '"').replace(/&#039;/g, '`') }
             </button>);
         })}
       </div>

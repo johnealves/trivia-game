@@ -17,3 +17,11 @@ li img, p {
 li img {
   max-width: 50px;
 }
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

@@ -29,14 +29,12 @@
   border: 0;
   border-radius: 4px;
   color: white;
-  padding: 7px;
+  padding: 7px 20px;
 }
 
 .login-container button:disabled {
   background-color: #555;
-  color: white;
   cursor: not-allowed;
-  padding: 7px;
 }
 
 .title {

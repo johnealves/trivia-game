@@ -55,9 +55,9 @@ class Login extends React.Component {
   }
 
   checkStatusButton() {
-    const { name, email } = this.state;
+    const { name } = this.state;
     const minCharacters = 2;
-    if (name.length > minCharacters && email.length > minCharacters) {
+    if (name.length > minCharacters) {
       this.setState({
         isDisable: false,
       });
